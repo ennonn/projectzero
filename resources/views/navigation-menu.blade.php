@@ -18,6 +18,9 @@
                     <x-nav-link href="{{ route('task.index') }}" wire:navigate :active="request()->routeIs('task.index')">
                         {{ __('To Do List') }}
                     </x-nav-link>
+                    <x-nav-link href="{{ route('notepad.index') }}" wire:navigate :active="request()->routeIs('notepad3.index')">
+                        {{ __('My Notes') }}
+                    </x-nav-link>
                 </div>
             </div>
 
